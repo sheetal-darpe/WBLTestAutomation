@@ -28,6 +28,7 @@ public class FileUploadPage extends PortalPage{
             status = false;
             _logger.error(ex);
             ex.printStackTrace();
+
         }
 
         return status;
